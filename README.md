@@ -1,5 +1,7 @@
 ## Law Society Web Developer Technical Assessment ##
 
+Deployed at: https://flourishing-khapse-309ebb.netlify.app/
+
 ## Task 1:
 User Story 2 – Generating EFT Reference for PC/QC/SOS applications 
 As a Solicitor applying for a PC/QC/SOS and paying via EFT I want the application to record an EFT reference so that my EFT payment can be matched easier 
