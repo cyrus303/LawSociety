@@ -1,4 +1,4 @@
-## Law Society Web Developer Technical Assessment
+## Law Society Web Developer Technical Assessment ##
 
 ## Task 1:
 User Story 2 – Generating EFT Reference for PC/QC/SOS applications 
