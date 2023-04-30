@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+## Law Society Web Developer Technical Assessment ##
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deployed at: https://flourishing-khapse-309ebb.netlify.app/
 
-## Available Scripts
+## Task 1:
+User Story 2 – Generating EFT Reference for PC/QC/SOS applications 
+As a Solicitor applying for a PC/QC/SOS and paying via EFT I want the application to record an EFT reference so that my EFT payment can be matched easier 
 
-In the project directory, you can run:
+### AC1 GIVEN I am a solicitor 
+WHEN I submit my PC/QC/SOS application and select pay by EFT 
+THEN the system should record my EFT Reference number in the format of 
 
-### `npm start`
+### AC2 GIVEN I am a solicitor 
+WHEN I have submitted my application and selected pay by EFT 
+THEN the EFT popup should show my EFT reference that is saved on my application 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### AC3 GIVEN I am a solicitor 
+WHEN I have submitted my application and selected pay by EFT THEN the EFT popup title should be powered by a culture string with the type of application being dynamically populated within the string e.g. "EFT receipt for {0}" 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### AC4 GIVEN I am a solicitor 
+WHEN I have submitted my application, selected pay by EFT and load the EFT Receipt form AND there is no EFT Reference included on my application yet 
+THEN the system should record my EFT Reference number in the format of Out of Scope or N/A.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Application types 
+- PC - Practising Certificate 
+- SOS - Service of State 
+- QC - Qualifying Certificate
